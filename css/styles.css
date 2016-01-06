@@ -1,0 +1,27 @@
+.progressBar {
+  height: 20px;
+  border-radius: 5px;
+  background: -webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1), rgba(255, 255, 255,0) 12px),
+              -webkit-linear-gradient(#F5A8A8, #F08080);
+
+-webkit-animation-name: slide;
+-webkit-animation-duration: 5s;
+}
+/* KeyFrames */
+
+@-webkit-keyframes slide {
+  from {width: 0%;}
+  to   {width: 100%;}
+}
+
+
+.fastProgressBar {
+  height: 20px;
+  border-radius: 5px;
+  background: -webkit-repeating-linear-gradient(-45deg, #700000 , #800000  12px),
+              -webkit-linear-gradient(#F5A8A8, #F08080);
+
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 2s;
+
+}
